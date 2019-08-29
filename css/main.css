@@ -1,0 +1,47 @@
+
+body {
+  font-family: 'acumin-pro';
+  background-color: #F5F5F5;
+  margin: 0;
+
+  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 2s; /* Firefox < 16 */
+  -ms-animation: fadein 2s; /* Internet Explorer */
+  -o-animation: fadein 2s; /* Opera < 12.1 */
+  animation: fadein 2s;
+}
+
+.logo, .section-img {
+  width: 70%;
+  display: block;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.logo {
+  margin-top: 60px;
+}
+
+.content-section {
+  width: 70%;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+h3 {
+  font-weight: bold;
+  color: #005A96;
+  font-size: 18px;
+}
+
+p {
+  font-size: 14px;
+  font-weight: normal;
+  color: black;
+}
+
+
+
+
+
