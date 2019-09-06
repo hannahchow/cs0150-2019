@@ -379,8 +379,10 @@ input, select, textarea {
 	}
 
 	.ta-block img {
-		width: 180px;
-		height: 180px;
+        min-width: 180px !important;
+        max-width: 180px !important;
+		width: 180px !important;
+		height: 180px !important;
 	}
 
     .name {
@@ -405,6 +407,21 @@ input, select, textarea {
         margin-bottom: 0.8em;
     }
 
+    .andy-blurb {
+        width: 70%;
+        padding-left: 2em;
+        padding-top: 2em;
+        padding-right: 2em;
+    }
+
+    .prof-container {
+        border-radius: 0.25em;
+        border: solid 1px rgba(255, 255, 255, 0.15);
+		background: rgba(255, 255, 255, 0.05);
+        margin-top: 1.2em;
+		margin-bottom: 0.6em;
+    }
+
     @media screen and (max-width: 1240px) {
         .ta-container {
             justify-content: center;
@@ -426,6 +443,12 @@ input, select, textarea {
 
         .ta-block {
             width: 49%;
+        }
+
+        .andy-blurb {
+            padding-left: 1em;
+            padding-top: 1em;
+            padding-right: 1em;
         }
     }
 
@@ -504,6 +527,12 @@ input, select, textarea {
         flex-direction: row;
         justify-content: space-between;
     }
+
+    #intro p {
+        font-size: 0.85em !important;
+    }
+
+
 
 
 
@@ -3374,6 +3403,7 @@ input, select, textarea {
 	table {
 		margin: 0 0 2em 0;
 		width: 100%;
+        text-align: center;
 	}
 
 		table tbody tr {
@@ -3385,6 +3415,10 @@ input, select, textarea {
 			table tbody tr:nth-child(2n + 1) {
 				background-color: rgba(255, 255, 255, 0.05);
 			}
+
+            tr td:first-child {
+                text-align: left;
+            }
 
 		table td {
 			padding: 0.75em 0.75em;
